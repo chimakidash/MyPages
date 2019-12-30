@@ -1,0 +1,20 @@
+name: Publish docs via GitHub Pages
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+      - run: echo Hello, world!
+      - name: Checkout master
+        uses: actions/checkout@v1
+
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

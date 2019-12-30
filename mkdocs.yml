@@ -1,0 +1,36 @@
+# Project information
+site_name: 'siteName'
+site_description: 'サイトの紹介'
+site_author: 'yourName'
+site_url: 'http://yourSite'
+
+
+# Copyright
+copyright: 'Copyright (c) 2016'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 'material'
+
+# Options
+extra:
+
+  palette:
+    primary: 'Light Blue'
+    accent: 'Orange'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+  author:
+    github: 'yourName'
+    twitter: 'yourName'
+
+# Extensions
+markdown_extensions:
+  - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'

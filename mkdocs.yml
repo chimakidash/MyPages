@@ -29,8 +29,8 @@ extra:
     twitter: 'yourName'
 
 # Extensions
-markdown_extensions:
-  - codehilite(css_class=code)
-  - admonition
-  - toc:
-      permalink: '#'
+# markdown_extensions:
+#  - codehilite(css_class=code)
+#  - admonition
+#  - toc:
+#      permalink: '#'

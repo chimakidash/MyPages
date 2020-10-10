@@ -1,6 +1,6 @@
-site_name: Test docs
-site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_name: chimakidash tech page
+site_description: 'chimakidash tech page'
+site_author: 'chimakidash'
 docs_dir: docs/
 repo_name: 'chimakidash/chimakidash.github.io'
 repo_url: 'https://chimakidash.github.io/.'

@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Deploy docs
-        uses: chimakidash/chimakidash.github.io@master
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

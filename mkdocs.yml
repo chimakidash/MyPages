@@ -6,5 +6,6 @@ repo_name: 'chimakidash/chimakidash.github.io'
 repo_url: 'https://chimakidash.github.io/.'
 nav:
     - Home: index.md
+    - DNS: dns.md
 theme:
   name: 'material'

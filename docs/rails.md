@@ -46,6 +46,23 @@ unless 条件
 end
 ```
 
+### メソッド参照
+メソッド名?(引数名)
+ 戻り値をboolean型と判断
+```ruby
+def positive?(value)
+ return value > 0
+end
+
+puts positive?(10)
+puts positive?(-3)
+
+#出力
+true
+false
+```
+
+ 
 ---
 
 ## DNSサーバ起動時に発生するエラー

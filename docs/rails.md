@@ -33,6 +33,19 @@ puts obj1.getName()           # => Tanaka
 puts obj2.getName()           # => nil
 ```
 
+### 条件分岐
+ifは条件が真の場合に、unlessは偽の場合に処理を実行します。
+```ruby
+if 条件
+  処理
+end
+
+# notif
+unless 条件
+  処理
+end
+```
+
 ---
 
 ## DNSサーバ起動時に発生するエラー
